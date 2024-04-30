@@ -1,0 +1,258 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "User Login in the Web Application",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-login-in-the-web-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3133956500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Adactin in Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Adactin_in_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262153000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter the \"jivita04\" in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jivita04",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137606100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter the \"123456\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430934600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the Login Button And it Navigates to search Hotel page",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_Button_And_it_Navigates_to_search_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User Login in the Web Application",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-login-in-the-web-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 442671600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Adactin in Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Adactin_in_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154712400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter the \"ABC\" in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABC",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154881600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter the \"123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378947700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the Login Button And it Navigates to search Hotel page",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_Button_And_it_Navigates_to_search_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User Login in the Web Application",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-login-in-the-web-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 204002200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Adactin in Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Adactin_in_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180491400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter the \"DEF\" in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DEF",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150765100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter the \"456\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "456",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333462300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the Login Button And it Navigates to search Hotel page",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_Button_And_it_Navigates_to_search_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking in Adactin Application",
+    "description": "",
+    "id": "hotel-booking-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
